@@ -35,3 +35,7 @@ html {
   background-color: #ccc !important;
   opacity: 1;
 }
+
+input:focus {
+  outline: none !important;
+}
