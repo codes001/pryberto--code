@@ -1,5 +1,5 @@
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation, Pagination, Scrollbar } from "swiper/modules";
+import { Navigation, Pagination, Scrollbar, Autoplay } from "swiper/modules";
 import { slides } from "@/constants";
 import "swiper/css";
 import "swiper/css/navigation";
@@ -11,10 +11,10 @@ const Hero: React.FC = () => {
       id="hero"
       className="h-[80vh] w-full flex items-center justify-center bg-gray-700 text-white"
       spaceBetween={50}
-      modules={[Navigation, Pagination, Scrollbar]}
+      modules={[Navigation, Pagination, Scrollbar, Autoplay]}
       slidesPerView={1}
       navigation
-      autoplay={{ delay: 5000 }}
+      autoplay={{ delay: 4000, disableOnInteraction:false }}
       loop={true}
       pagination={{ clickable: true }}
       scrollbar={{ draggable: true }}
