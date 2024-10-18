@@ -17,7 +17,7 @@ export default function RootLayout({
     <html lang="en">
       <body className="font-poppins antialiased">
         <Navbar />
-        <main className="translate-y-[100px]">{children}</main>
+        <main className="translate-y-[80px]">{children}</main>
         <Footer />
       </body>
     </html>
