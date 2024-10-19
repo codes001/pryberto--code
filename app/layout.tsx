@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import { Toaster } from "@/components/ui/toaster";
+
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -16,6 +18,8 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className="font-poppins antialiased">
+        <Toaster />
+
         <Navbar />
         <main className="translate-y-[80px]">{children}</main>
         <Footer />

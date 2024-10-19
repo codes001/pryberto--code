@@ -13,20 +13,21 @@ const About = () => {
 
       <div className="flex flex-col mt-4 items-center justify-center">
         <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio autem
-          dolore unde ea neque placeat sapiente officia necessitatibus? Eveniet,
-          laudantium! Eum dolore quae odio, quod animi et obcaecati blanditiis
-          architecto, iste autem impedit id, ea beatae. Harum inventore ducimus
-          fuga veritatis illum veniam est earum. Iure eligendi voluptate
-          deleniti. Illo, dolorem inventore ratione hic amet repellendus
-          veritatis minus iusto? Veritatis adipisci minima ratione deleniti eius
-          blanditiis dolorem. Rerum aut, illum nihil at laudantium enim mollitia
-          dicta ducimus cum recusandae, dolores laboriosam ullam voluptatum qui
-          in deserunt iusto excepturi ipsum consectetur!
+          At Pryberto Code, we are dedicated to delivering innovative and
+          tailored technology solutions that empower businesses to thrive in
+          today’s digital world. With a passion for problem-solving and a
+          commitment to excellence, we specialize in a wide range of services,
+          including cloud infrastructure management, cybersecurity, software
+          development, and data analytics. Our team of expert engineers and
+          consultants work closely with clients to understand their unique
+          challenges and develop customized solutions that drive growth, enhance
+          efficiency, and secure their digital future. Whether you’re a startup
+          or an enterprise, we are here to support your journey through the
+          rapidly evolving tech landscape.
         </p>
         <Button className=" transition-all duration-100 ease-in-out bg-blue-primary !rounded-full text-white mt-4 hover:bg-transparent hover:border hover:border-blue-primary hover:text-blue-primary">
           {" "}
-          Contact Us
+          <a href="#contact">Contact Us</a>
         </Button>
       </div>
     </div>

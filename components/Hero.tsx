@@ -9,12 +9,12 @@ const Hero: React.FC = () => {
   return (
     <Swiper
       id="hero"
-      className="h-[80vh] w-full flex items-center justify-center bg-gray-700 text-white"
+      className="h-[80vh] md:h-screen w-full flex items-center justify-center bg-gray-700 text-white"
       spaceBetween={50}
       modules={[Navigation, Pagination, Scrollbar, Autoplay]}
       slidesPerView={1}
       navigation
-      autoplay={{ delay: 4000, disableOnInteraction:false }}
+      autoplay={{ delay: 4000, disableOnInteraction: false }}
       loop={true}
       pagination={{ clickable: true }}
       scrollbar={{ draggable: true }}
@@ -24,7 +24,7 @@ const Hero: React.FC = () => {
       {slides.map((slide) => (
         <SwiperSlide key={slide.id}>
           <div
-            className="h-screen relative flex items-center pl-20 -mt-16"
+            className="h-screen relative flex justify-center items-center  -mt-16 md:-mt-6 "
             style={{
               backgroundImage: `url(${slide.image})`,
               backgroundSize: "cover",

@@ -13,12 +13,20 @@ html {
 * {
   font-family: "Roboto", sans-serif;
 }
-
+h1,
+h2,
+h3,
+h4 {
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+}
 .swiper-button-next,
 .swiper-button-prev {
   color: #fff !important;
 
   font-size: 30px !important;
+
   width: 40px !important;
   height: 40px !important;
 }
