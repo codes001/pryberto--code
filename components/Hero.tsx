@@ -9,7 +9,7 @@ const Hero: React.FC = () => {
   return (
     <Swiper
       id="hero"
-      className="h-[80vh] md:h-screen w-full flex items-center justify-center bg-gray-700 text-white"
+      className="h-[80vh] md:h-[90vh] w-full flex items-center justify-center bg-gray-700 text-white"
       spaceBetween={50}
       modules={[Navigation, Pagination, Scrollbar, Autoplay]}
       slidesPerView={1}
